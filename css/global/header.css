@@ -1,0 +1,112 @@
+.header{
+position: relative;
+z-index: 800;
+width: 100%;
+background-color: var(--gray-10);
+background-color: var(--color-0);
+}
+
+#header-brand-gray{
+background-color: var(--gray-2);
+}
+
+/* language */
+.language{
+margin-left: 48px;
+}
+
+.language-box, .language-box-gray{
+display: flex;
+align-items: center;
+gap: 8px;
+height: 36px;
+border-radius: 999px;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+.language-box{
+background-color: var(--gray-6);
+}
+
+.language-box-gray{
+border: 2px solid var(--color-1);
+background-color: transparent;
+}
+
+.language-box-gray svg path,
+.language-box svg path{
+transition: .2s;
+}
+
+.language-box-gray:hover{
+border: 2px solid var(--color-brand);
+}
+
+.language-box:hover svg path,
+.language-box-gray:hover svg path{
+stroke: var(--color-brand);
+}
+
+
+/* -------- */
+.header-nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo-mergu-link{
+padding-top: 24px;
+padding-bottom: 16px;
+}
+
+.logo-mergu-link svg{
+/* width: 64px; */
+width: 110px;
+height: auto;
+}
+
+.header-menu{
+display: flex;
+align-items: center;
+font: var(--font-14-t);
+font-weight: 400;
+text-transform: uppercase;
+color: var(--color-0);
+letter-spacing: 1.5px;
+}
+
+.header-menu li{
+margin-left: 22px;
+}
+
+.header-menu li:first-child {
+margin-left: 0;
+}
+
+.header-menu li a{
+transition: .2s;
+padding: 10px;
+}
+
+.links-gray li a{
+color: var(--color-1);
+}
+
+.header-menu li a:hover{
+color: var(--color-brand);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

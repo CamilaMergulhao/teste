@@ -1,0 +1,153 @@
+.projects-bg{
+background-color: var(--gray-8);
+padding: 96px 0px;
+}
+
+/* .projetos-title */
+.projects-title{
+margin-bottom: 64px;
+max-width: max-content;
+}
+
+.projects-title h2{
+font: var(--font-20-t);
+color: var(--color-0);
+text-transform: uppercase;
+letter-spacing: 3px;
+line-height: 1;
+}
+
+/* .projetos-ctn */
+.projects-ctn{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap: 24px;
+grid-row-gap: 64px;
+}
+
+/* projeto-box-img */
+.projects-box-img{
+margin-bottom: 16px;
+opacity: .8;
+transition: 0.3s;
+}
+
+.projects-box-anchor:hover .projects-box-img{
+opacity: 1; 
+}
+    
+/* projeto-info */
+.projects-box-info{
+display: flex;
+justify-content: space-between;
+align-items: start;
+}
+
+.projects-box-info-icon{
+overflow: hidden;
+width: 16px;
+height: 16px;
+display: flex;
+align-items: center;
+margin-right: 16px;
+transform: translateX(8px); 
+opacity: 0; 
+transition: transform 0.2s ease-out, opacity 0.2s ease-out; 
+} 
+
+.projects-box-anchor:hover .projects-box-info-icon {
+transform: translateX(0); 
+opacity: 1; 
+}
+
+.projects-box-text-title{
+font: var(--font-16);
+color: var(--color-0);
+font-weight: 500;
+line-height: 1;
+margin-bottom: 16px;
+}
+
+.projects-box-text-desc{
+font: var(--font-12-t);
+color: var(--gray-4);
+text-transform: uppercase;
+line-height: 1;
+letter-spacing: 1px;
+}
+
+
+
+
+/* media-queries */
+
+@media (max-width: 1024px) {
+.projects-ctn{
+grid-column-gap: 16px;
+grid-row-gap: 48px;
+}
+
+.projects-title{
+margin-bottom: 48px;
+}
+
+.projects-box-text-title{
+margin-bottom: 8px;
+}
+}
+
+
+@media(max-width: 900px){
+.projects-ctn{
+grid-template-columns: 1fr;
+grid-row-gap: 64px;
+}
+
+.projects-box-img{
+width: 100%;
+}
+
+.projects-box-img img{
+width: 100%;
+}
+}
+
+
+@media (max-width: 768px) {
+.projects-bg{
+padding: 80px 0px;
+}
+
+.projects-title{
+margin-bottom: 32px;
+} 
+
+.projects-title h2{
+font: var(--font-18-t);
+line-height: 1;
+} 
+
+.projects-ctn{
+grid-row-gap: 48px;
+}
+} 
+
+
+@media (max-width: 480px) {
+/* .projects-bg{
+padding: 64px 0px;
+} */
+
+
+} 
+    
+
+
+
+
+
+
+
+
+
+

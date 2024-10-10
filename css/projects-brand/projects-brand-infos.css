@@ -1,0 +1,128 @@
+.projects-brand-intro-infos-bg{
+/* background-color: var(--gray-1); */
+background-color: var(--color-0);
+padding-top: 128px;
+}
+
+.projects-brand-intro-infos{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap: 64px;
+margin: auto;
+}
+
+.projects-brand-infos-ctn-1 h1{
+font: var(--font-48);
+color: var(--gray-10);
+font-weight: 600;
+line-height: 1;
+margin-bottom: 32px;
+}
+
+.projects-brand-infos-box h2{
+font: var(--font-16-t);
+color: var(--gray-4);
+font-weight: 600;
+line-height: 1;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+margin-bottom: 8px;
+}
+
+.projects-brand-infos-box p{
+font: var(--font-18);
+color: var(--gray-10);
+}
+
+.projects-brand-infos-box{
+margin-bottom: 32px;
+}
+
+.projects-brand-infos-box:last-of-type {
+margin-bottom: 40px;
+}
+
+.projects-brand-infos-ctn-2 p{
+font: var(--font-18);
+color: var(--gray-10);
+}
+
+.link-site-client{
+font: var(--font-16-t);
+color: var(--color-0);
+background-color: var(--color-brand);
+text-transform: uppercase;
+padding: 16px 45px;
+display: inline-block;
+cursor: pointer;
+letter-spacing: 1.5px;
+transition: 0.2s;
+}
+
+.link-site-client:hover{
+background-color: var(--color-brand-hover);
+}
+
+
+
+
+@media(max-width: 900px){
+.projects-brand-intro-infos{
+grid-template-columns: 1fr;
+grid-column-gap: 0px;
+}
+
+.projects-brand-infos-box{
+margin-bottom: 24px;
+}
+
+.projects-brand-infos-box:last-of-type {
+margin-bottom: 32px;
+}
+
+.projects-brand-infos-ctn-1{
+margin-bottom: 32px;
+}
+
+
+.link-site-client{
+width: 100%;
+text-align: center;
+}
+}
+
+
+@media(max-width: 768px){
+.projects-brand-intro-infos-bg{
+padding-top: 80px;
+}
+
+
+.projects-brand-infos-ctn-1 h1{
+font: var(--font-32);
+font-weight: 600;
+line-height: 1;
+margin-bottom: 32px;
+}
+
+.projects-brand-infos-box h2{
+font: var(--font-14-t);
+font-weight: 600;
+line-height: 1;
+}
+
+.projects-brand-infos-box p{
+font: var(--font-16);
+}
+
+.projects-brand-infos-ctn-2 p{
+font: var(--font-16);
+}
+}
+
+@media(max-width: 480px){
+.projects-brand-intro-infos-bg{
+padding-top: 64px;
+}
+}
+

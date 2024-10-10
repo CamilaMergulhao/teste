@@ -1,0 +1,57 @@
+.projects-brand-bg{
+background-color: var(--color-0);
+padding-top: 96px;
+padding-bottom: 128px;
+}
+
+.projects-brand-job{
+display: flex;
+flex-direction: column;
+margin: auto;
+}
+
+.projects-brand-job-col-1,
+.projects-brand-job-col-2{
+margin-bottom: 24px;
+}
+
+.projects-brand-job-col-2{ 
+display: flex;
+gap: 24px;
+}
+
+
+.projects-brand-job-col-1 picture img,
+.projects-brand-job-col-2 picture img{
+width: 100%;
+height: auto;
+}
+
+
+
+
+
+@media(max-width: 768px){
+.projects-brand-bg{
+padding-top: 64px;
+padding-bottom: 64px;
+}
+
+.projects-brand-job-col-2{
+flex-direction: column;
+gap: 16px;
+}
+
+.projects-brand-job-col-1,
+.projects-brand-job-col-2{
+margin-bottom: 16px;
+}
+}
+
+
+
+
+
+
+@media(max-width: 480px){
+}

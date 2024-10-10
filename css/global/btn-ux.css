@@ -1,0 +1,86 @@
+/* config todos */
+.btn-top,
+.btn-top-gray,
+.btn-whatsapp,
+.btn-whatsapp-gray{
+position: fixed;
+display: flex;
+align-items: center;
+justify-content: center;
+bottom: 24px;
+transition: opacity 0.2s ease, background-color 0.2s ease;  
+cursor: pointer;
+z-index: 500;
+}
+
+/* config btn-zap */
+.btn-whatsapp,
+.btn-whatsapp-gray{
+left: 24px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+
+.btn-whatsapp{
+background-color: rgba(244, 0, 9, 0.7); 
+}
+
+.btn-whatsapp-gray{
+background-color: rgba(244, 0, 9, 0.7); 
+}
+
+.btn-whatsapp-gray:hover,
+.btn-whatsapp:hover{
+background-color: rgba(244, 0, 9, 1); 
+}
+
+/* config btn-top */
+.btn-top-gray,
+.btn-top{
+right: 24px;
+width: 30px;
+height: 30px;
+}
+
+.btn-top {
+background-color: rgba(255, 255, 255, 0.1); /* Transparência no background */
+opacity: 0.3; 
+}
+
+.btn-top-gray{
+background-color: rgba(0, 0, 0, 0.745); 
+}
+
+.btn-top:hover {
+opacity: 1; 
+}
+
+.btn-top-gray:hover{
+background-color: var(--cor-1);
+}
+
+
+/* tamanho svg´s */
+.btn-whatsapp-gray svg,
+.btn-whatsapp svg{
+width: 20px;
+height: auto;
+}
+
+.btn-top-gray svg,
+.btn-top svg{
+width: 16px;
+height: auto;
+}
+
+
+
+@media(max-width: 768px){
+.open .btn-top{
+display: none;
+
+}
+
+
+}
