@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Document</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Barlow:ital,wght@0,200;1,200&family=Golos+Text&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Barlow:ital,wght@0,200;1,200&family=Golos+Text&display=swap"></noscript>
+
+     <!-- css -->
+     <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body>
+   
+    <header class="header" id="header-home">                                  
+        <nav class="header-nav ctn" aria-label="primaria">
+            <a href="https://mergu.com.br/" title="Mergu - Desenvolvimento de Sites e Projetos Digitais" class="logo-mergu-link">
+                <svg width="182" height="60" viewBox="0 0 182 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.3024 30.9921L17.3858 4.27087C17.0079 2.72126 16.252 1.6252 15.1181 0.982677C13.9843 0.302362 12.2835 0 10.0535 0H3.55276C2.91024 0 2.57008 0.340157 2.57008 1.05827L0 44.674C0 45.3921 0.302362 45.7323 0.907087 45.7323H8.65512C9.25984 45.7323 9.5622 45.3921 9.5622 44.674L11.1874 13.7953L19.3512 44.674C19.5024 45.3921 19.8803 45.7323 20.485 45.7323H27.8929C28.611 45.7323 29.0646 45.3921 29.2157 44.674L37.5307 13.9087L39.1937 44.674C39.1937 45.3921 39.4961 45.7323 40.1764 45.7323H47.811C48.378 45.7323 48.6425 45.3921 48.6425 44.674L46.4882 5.5937C46.4504 3.93071 45.8079 2.60787 44.5984 1.54961C43.389 0.529134 41.8772 0 40.063 0H33.411C32.7685 0 32.3528 0.340157 32.1638 1.05827L24.3024 30.9921ZM63.3449 26.7213C63.5717 23.2063 65.5748 21.4677 69.3543 21.4677C71.0173 21.4677 72.3402 21.9591 73.3228 22.9795C74.3055 24 74.6457 25.2472 74.3811 26.7213H63.3449ZM63.2693 33.2976H82.0535C82.9606 33.2976 83.4898 32.8819 83.6031 32.0882C83.7165 30.7654 83.7543 29.2913 83.7543 27.6283C83.7543 23.3953 82.4315 19.9937 79.8236 17.348C77.2535 14.7024 73.7386 13.4173 69.3543 13.4173C64.1764 13.4173 60.0945 15.1559 57.1843 18.6709C54.7654 21.6189 53.5559 25.3606 53.5559 29.8583C53.5559 35.3386 55.2567 39.5717 58.6583 42.5953C61.6441 45.2409 65.4614 46.5638 70.1102 46.5638C74.8346 46.5638 78.3496 45.3543 80.7307 42.9354C82.3181 41.2724 83.1118 39.4961 83.1118 37.4929C83.1118 36.6992 82.7717 36.2835 82.1291 36.2835C81.8646 36.2835 81.3732 36.3969 80.7307 36.6992C77.7071 37.9843 74.6079 38.6646 71.4331 38.6646C66.6709 38.6646 63.9496 36.8882 63.2693 33.2976ZM98.2299 18.822C97.3606 15.7984 94.8661 14.3244 90.7465 14.3244H90.3307C89.6504 14.3244 89.2724 14.6646 89.2724 15.3827V44.674C89.2724 45.3921 89.6504 45.7323 90.3307 45.7323H97.5874C98.3055 45.7323 98.6457 45.3921 98.6457 44.674V31.748C98.6457 28.4976 99.0992 26.3055 99.9685 25.1717C100.951 23.811 102.765 23.0929 105.411 23.0929H107.792C108.51 23.0929 108.85 22.7528 108.85 22.0346V15.3827C108.85 14.6646 108.51 14.3244 107.792 14.3244H106.809C104.504 14.3244 102.765 14.6268 101.594 15.2693C100.384 15.874 99.2882 17.0835 98.2299 18.822ZM128.92 37.6819C126.803 37.6819 125.102 36.9638 123.817 35.5654C122.57 34.1669 121.928 32.2772 121.928 29.8583C121.928 24.9071 124.271 22.4504 128.92 22.4504C133.38 22.4504 135.609 24.9071 135.609 29.8583C135.609 32.9953 134.665 35.1874 132.813 36.4346C131.641 37.2661 130.356 37.6819 128.92 37.6819ZM135.609 41.4614V44.1827C135.609 48.8693 132.51 51.2504 126.387 51.2504C122.306 51.2504 118.904 50.2677 116.183 48.2646C115.691 47.8866 115.313 47.6976 115.011 47.6976C114.255 47.6976 113.877 48.3402 113.877 49.5874C113.877 52.4976 115.351 54.9921 118.337 56.9953C121.134 58.885 124.573 59.7921 128.693 59.7921C134.4 59.7921 138.633 58.1669 141.43 54.9543C143.849 52.2709 145.058 48.6425 145.058 44.0693V15.3827C145.058 14.6646 144.718 14.3244 144 14.3244H143.584C140.069 14.3244 137.726 15.3827 136.592 17.4992C134.098 14.7024 130.772 13.3039 126.539 13.3039C121.89 13.3039 118.224 15.1181 115.616 18.7465C113.348 21.6945 112.214 25.3984 112.214 29.7827C112.214 34.885 113.575 38.8913 116.258 41.8016C118.715 44.4094 122.117 45.7323 126.387 45.7323C130.205 45.7323 133.304 44.2961 135.609 41.4614ZM166.677 46.5638C176.844 46.5638 181.909 41.1969 181.909 30.5008V22.3748C181.909 19.578 181.266 17.537 180.019 16.252C178.772 14.9669 176.731 14.3244 173.934 14.3244H173.518C172.8 14.3244 172.46 14.6646 172.46 15.3827V31.3323C172.46 35.6787 170.532 37.8331 166.677 37.8331C162.898 37.8331 161.008 35.6409 161.008 31.2567V22.3748C161.008 19.578 160.403 17.537 159.118 16.252C157.871 14.9669 155.868 14.3244 153.109 14.3244H152.693C152.013 14.3244 151.635 14.6646 151.635 15.3827V29.9339C151.635 41.0079 156.661 46.5638 166.677 46.5638Z" fill="#F40009"/>
+                    </svg>
+                    
+                                    
+            </a>
+         
+      
+            <ul class="header-menu">
+                <li><a href="/servicos" title="Projetos">Projetos</a></li>
+                <li><a href="/projetos" title="Sobre">Sobre</a></li>
+               
+                <li><a href="/contato" title="Contato">Contato</a></li>
+
+                <li class="language">
+                    
+                    <a href="#" class="language-box" title="Contato">
+                
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_619_273)">
+                            <mask id="mask0_619_273" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="22" height="22">
+                            <path d="M22 0H0V22H22V0Z" fill="white"/>
+                            </mask>
+                            <g mask="url(#mask0_619_273)">
+                            <path d="M20.6107 11.0002C20.6107 12.2622 20.3621 13.5119 19.8792 14.6777C19.3962 15.8437 18.6884 16.9032 17.7961 17.7955C16.9037 18.688 15.8442 19.3958 14.6782 19.8787C13.5124 20.3616 12.2627 20.6102 11.0007 20.6102C9.73866 20.6102 8.48903 20.3616 7.32304 19.8787C6.15713 19.3958 5.09769 18.688 4.20534 17.7956C3.31299 16.9032 2.60502 15.8437 2.12213 14.6777C1.63914 13.5119 1.39062 12.2622 1.39062 11.0002C1.39062 9.73818 1.63914 8.48855 2.12213 7.32255C2.60511 6.15665 3.31299 5.09721 4.20534 4.20486C5.09769 3.3125 6.15713 2.60454 7.32304 2.12165C8.48903 1.63866 9.73866 1.39014 11.0007 1.39014C12.2627 1.39014 13.5124 1.63866 14.6782 2.12165C15.8442 2.60463 16.9037 3.3125 17.796 4.20486C18.6884 5.09721 19.3962 6.15665 19.8792 7.32255C20.3621 8.48855 20.6107 9.73818 20.6107 11.0002Z" stroke="white"/>
+                            <path d="M14.8443 11.0002C14.8443 12.2622 14.7448 13.5119 14.5517 14.6777C14.3585 15.8437 14.0754 16.9032 13.7183 17.7955C13.3614 18.688 12.9377 19.3958 12.4713 19.8787C12.0049 20.3616 11.5051 20.6102 11.0003 20.6102C10.4954 20.6102 9.99565 20.3616 9.52927 19.8787C9.0628 19.3958 8.63911 18.688 8.2821 17.7956C7.92518 16.9032 7.64204 15.8437 7.44887 14.6777C7.25569 13.5119 7.15625 12.2622 7.15625 11.0002C7.15625 9.73818 7.25569 8.48855 7.44887 7.32255C7.64204 6.15665 7.92518 5.09721 8.2821 4.20486C8.63911 3.3125 9.06289 2.60454 9.52927 2.12165C9.99565 1.63866 10.4954 1.39014 11.0003 1.39014C11.505 1.39014 12.0049 1.63866 12.4713 2.12165C12.9377 2.60463 13.3614 3.3125 13.7183 4.20486C14.0754 5.09721 14.3585 6.15665 14.5517 7.32255C14.7448 8.48855 14.8443 9.73818 14.8443 11.0002Z" stroke="white"/>
+                            <path d="M1.39062 11H20.6107" stroke="white" stroke-linecap="round"/>
+                            </g>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_619_273">
+                            <rect width="22" height="22" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>     
+                    <span>PT</span>
+                    </a>
+                </li>
+
+
+            </ul>       
+        
+
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu-mobile" aria-expanded="false">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </button>
+
+            </nav>
+              
+        <div id="header-menu-mobile-ctn">
+            
+            <button aria-label="Fechar Menu" id="btn-mobile-close" aria-haspopup="true" aria-controls="menu-mobile" aria-expanded="false">
+                  <span class="icon-close"></span> 
+              </button>
+
+        
+            <div id="header-menu-mobile">
+               
+            <nav class="mobile-nav">
+                <ul class="mobile-menu">
+                    <li><a href="/servicos" title="Projetos">Projetos</a></li>
+                    <li><a href="/projetos" title="Sobre">Sobre</a></li>
+                    <li><a href="/contato" title="Contato">Contato</a></li>
+                </ul>
+            </nav>
+
+                <div class="mobile-menu-infos">
+                    <ul class="mobile-menu-social">
+                        <li><a href="#"><img src="icon/instagram-icon.svg" alt=""></a></li>
+
+                        <li><a href="#"><img src="icon/youtube-icon.svg" alt=""></a></li>
+
+                        <li><a href="#"><img src="icon/linkedin-icon.svg" alt=""></a></li>
+                    </ul>
+
+                    
+                        <a href="#" class="lang-mobile">Version Englash</a>
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+   
+        <div id="overlay"></div> <!-- Camada de sobreposição -->
+    </header>   
+
+    <section class="projects-brand-intro-bg" id="projects-brand-intro-bg-gray">
+        <div class="projects-brand-intro ctn">
+            <div class="projects-brand-intro-logo">
+                <!-- <img src="../logos/" alt="Logomarca cliente mateiros"> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-brand-intro-infos-bg">
+        <div class="projects-brand-intro-infos ctn">
+                                
+                <div class="projects-brand-infos-ctn-1">
+                    <h1>Monkeys BBQ</h1>
+
+                    <div class="projects-brand-infos-box">
+                        <h2>O que fiz</h2>
+                        <p>Desenvolvimento web, Ui design</p>
+                    </div>
+
+                    <div class="projects-brand-infos-box">
+                        <h2>Tecnologia</h2>
+                        <p>Html, CSS e JS</p>
+                    </div>
+
+                    <a href="#" class="link-site-client">
+                        visite o site
+                    </a>
+
+
+                </div>
+
+
+                <div class="projects-brand-infos-ctn-2">
+                    <p>Sayian Drinks is a beverage company that offers a variety of innovative and health-conscious drinks. Our goal was to create a vibrant and dynamic Webflow template that captures the energetic spirit of Sayian Drinks. Through bold colors and engaging visuals, we aimed to showcase their unique beverages and connect with health-conscious consumers.</p>
+                </div>
+
+        </div>
+    </section>
+
+    <section class="projects-brand-bg">
+        <div class="projects-brand ctn">
+            <div class="projects-brand-job">
+
+
+                    <!-- <div class="projects-brand-job-pc">
+                        <picture>
+                            <source srcset="../img/bbq01-768.webp" media="(max-width: 768px)">
+                            <source srcset="../img/bbq01-1200.webp" media="(min-width: 769px)">
+                            <img src="../img/bbq01-1200.webp" alt="Descrição da imagem" width="1200" height="857" loading="lazy">
+                        </picture>
+                    </div> -->
+
+
+                    <div class="projects-brand-job-col-2">
+                        <picture>
+                            <source srcset="../img/01-mb.jpg" media="(max-width: 768px)">
+                            <source srcset="../img/01.jpg" media="(min-width: 769px)">
+                            <img src="../img/01.jpg" alt="Descrição da imagem" width="1200" height="857" loading="lazy">
+                        </picture>
+
+                        <div>
+                            <picture>
+                                <source srcset="../img/02-mb.jpg" media="(max-width: 768px)">
+                                <source srcset="../img/02.jpg" media="(min-width: 769px)">
+                                <img src="../img/02.jpg" alt="Descrição da imagem" width="1200" height="857" loading="lazy">
+                            </picture>
+                            </div>
+                    </div>
+
+
+                    <div class="projects-brand-job-col-1">
+                        <picture>
+                            <source srcset="../img/gggg-mb.jpg" media="(max-width: 768px)">
+                            <source srcset="../img/gggg.jpg" media="(min-width: 769px)">
+                            <img src="../img/gggg.jpg" alt="Descrição da imagem" width="1200" height="857" loading="lazy">
+                        </picture>
+                    </div>
+
+
+                    <div class="projects-brand-job-col-2">
+                        <div>
+                            <picture>
+                                <source srcset="../img/bone-mb.jpg" media="(max-width: 768px)">
+                                <source srcset="../img/bone.jpg" media="(min-width: 769px)">
+                                <img src="../img/bone.jpg" alt="Descrição da imagem" width="1200" height="857" loading="lazy">
+                            </picture>
+                        </div>
+
+                        <div>
+                            <picture>
+                                <source srcset="../img/avental-mb.jpg" media="(max-width: 768px)">
+                                <source srcset="../img/avental.jpg" media="(min-width: 769px)">
+                                <img src="../img/avental.jpg" alt="Descrição da imagem" width="1200" height="857" loading="lazy">
+                            </picture>
+                            </div>
+                    </div>
+
+                    
+                    <div class="projects-brand-job-col-1">
+                        <picture>
+                            <source srcset="../img/caixas-mb.jpg" media="(max-width: 768px)">
+                            <source srcset="../img/caixas.jpg" media="(min-width: 769px)">
+                            <img src="../img/caixas.jpg" alt="Descrição da imagem" width="1200" height="857" loading="lazy">
+                        </picture>
+                         </div>
+
+                         <div class="projects-brand-job-col-1">
+                            <picture>
+                                <source srcset="../img/q-mb.jpg" media="(max-width: 768px)">
+                                <source srcset="../img/q.jpg" media="(min-width: 769px)">
+                                <img src="../img/q.jpg" alt="Descrição da imagem" width="1200" height="857" loading="lazy">
+                            </picture>
+                             </div>
+
+                             <div class="projects-brand-job-col-2">
+                                <div>
+                                    <picture>
+                                        <source srcset="../img/tab01.jpg" media="(max-width: 768px)">
+                                        <source srcset="../img/tab01.jpg" media="(min-width: 769px)">
+                                        <img src="../img/tab01.jpg" alt="Descrição da imagem" width="1200" height="857" loading="lazy">
+                                    </picture>
+                                </div>
+        
+                                <div>
+                                    <picture>
+                                        <source srcset="../img/tab02.jpg" media="(max-width: 768px)">
+                                        <source srcset="../img/tab02.jpg" media="(min-width: 769px)">
+                                        <img src="../img/tab02.jpg" alt="Descrição da imagem" width="1200" height="857" loading="lazy">
+                                    </picture>
+                                    </div>
+                            </div>
+        
+                            <div class="projects-brand-job-col-1">
+                                <picture>
+                                    <source srcset="../img/tab03-mb.jpg" media="(max-width: 768px)">
+                                    <source srcset="../img/tab03.jpg" media="(min-width: 769px)">
+                                    <img src="../img/tab03.jpg" alt="Descrição da imagem" width="1200" height="857" loading="lazy">
+                                </picture>
+                                 </div>
+
+
+                                 <div class="projects-brand-job-col-1">
+                                    <picture>
+                                        <source srcset="../img/mobile01-mb.jpg" media="(max-width: 768px)">
+                                        <source srcset="../img/mobile01.jpg" media="(min-width: 769px)">
+                                        <img src="../img/mobile01.jpg" alt="Descrição da imagem" width="1200" height="857" loading="lazy">
+                                    </picture>
+                                     </div>
+             
+               
+            
+                </div>
+    
+        </div>
+    </section>
+
+    <footer class="contact-bg">
+        <div class="contact ctn">
+            <div class="contact-ctn">
+
+                <div class="contact-infos-box">
+                    
+                    <div class="contact-title">
+                        <h2>Me fale mais sobre seu projeto. Amo novos desafios <span class="emoji"><img src="../icon/emoji.svg" alt=""></span> </h2>
+                    </div>
+
+                    <div class="contact-details">
+                        <a href="mailto:contato@mergu.com.br" target="_blank" title="contato@mergu.com.br">contato@mergu.com.br</a>
+
+                        <a href="https://wa.me//558193955101" target="_blank"
+                        title="(81) 99395.5101">+55 81 99395 5101</a>
+                    </div>
+
+                </div>
+
+                <div class="form">
+                    <form action="./enviar.php" method="post" id="formulario">
+                        <div class="form-infos">
+                            <div>
+                                <label for="name">Nome</label>
+                                <input name="name" id="name" type="text" required>
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input name="email" id="email" type="email" required>
+                            </div>
+                            <div class="mensage">
+                                <label for="message">Mensagem</label>
+                                <textarea name="message" id="message" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="btn-form-ctn">
+                            <button type="submit" id="submit" class="btn-form">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+
+        <div class="copy-bg">
+            <div class="copy">
+                <p class="text-14 gray-5">Mergu © 2024</p>
+
+                <ul class="social-copy">
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+
+    <div class="btn-ux">
+        <a href="#" class="btn-whatsapp-gray">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_630_2)">
+                <path d="M17.4697 14.382C17.1727 14.233 15.7117 13.515 15.4397 13.415C15.1667 13.316 14.9687 13.267 14.7697 13.565C14.5727 13.862 14.0027 14.531 13.8297 14.729C13.6567 14.928 13.4827 14.952 13.1857 14.804C12.8887 14.654 11.9307 14.341 10.7957 13.329C9.91269 12.541 9.31569 11.568 9.14269 11.27C8.96969 10.973 9.12469 10.812 9.27269 10.664C9.40669 10.531 9.57069 10.317 9.71869 10.144C9.86769 9.97004 9.91669 9.84604 10.0167 9.64704C10.1157 9.44904 10.0667 9.27604 9.99169 9.12704C9.91669 8.97804 9.32269 7.51504 9.07569 6.92004C8.83369 6.34104 8.58869 6.42004 8.40669 6.41004C8.23369 6.40204 8.03569 6.40004 7.83669 6.40004C7.63869 6.40004 7.31669 6.47404 7.04469 6.77204C6.77269 7.06904 6.00469 7.78804 6.00469 9.25104C6.00469 10.713 7.06969 12.126 7.21769 12.325C7.36669 12.523 9.31369 15.525 12.2947 16.812C13.0037 17.118 13.5567 17.301 13.9887 17.437C14.7007 17.664 15.3487 17.632 15.8597 17.555C16.4307 17.47 17.6177 16.836 17.8657 16.142C18.1137 15.448 18.1137 14.853 18.0387 14.729C17.9647 14.605 17.7677 14.531 17.4697 14.382ZM12.0477 21.785H12.0437C10.2735 21.7852 8.53577 21.3092 7.01269 20.407L6.65169 20.193L2.91069 21.175L3.90869 17.527L3.67369 17.153C2.68413 15.5773 2.16063 13.7537 2.16369 11.893C2.16469 6.44304 6.59969 2.00904 12.0517 2.00904C14.6917 2.00904 17.1737 3.03904 19.0397 4.90704C19.9604 5.82366 20.6901 6.91377 21.1867 8.11428C21.6833 9.3148 21.9368 10.6019 21.9327 11.901C21.9297 17.351 17.4957 21.785 12.0477 21.785ZM20.4607 3.48804C19.3589 2.37896 18.0479 1.49958 16.6038 0.900841C15.1596 0.302105 13.611 -0.00407625 12.0477 4.09776e-05C5.49269 4.09776e-05 0.157688 5.33504 0.154688 11.892C0.154688 13.988 0.701687 16.034 1.74269 17.837L0.0546875 24L6.35969 22.346C8.10328 23.296 10.0571 23.7938 12.0427 23.794H12.0477C18.6017 23.794 23.9377 18.459 23.9407 11.901C23.9455 10.3383 23.6404 8.79014 23.0431 7.34607C22.4458 5.90201 21.5681 4.59071 20.4607 3.48804Z" fill="black"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_630_2">
+                <rect width="24" height="24" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+        </a>
+
+        <a href="#" class="btn-top-gray">
+            <svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_630_4)">
+                <path d="M24 12.0876L22.2482 13.8395L12 3.50365L1.75183 13.8395L0 12.0876L12 0L24 12.0876Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_630_4">
+                <rect width="24" height="14" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+            </a>
+
+    </div>
+
+    <script type="module" src="../js/script.js" defer></script>
+</body>
+</html>
